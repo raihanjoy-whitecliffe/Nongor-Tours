@@ -38,7 +38,7 @@ header.nav-bar .navbar-nav .nav-link.active {
 }
 /*-----------Background image of Home, Tour(also single tour pages) and Contact Us Page---------------*/
 .mt-0 {
-    background-image: url('/img/stunning-sunset-view-snow-capped-lake-wakatipu-mount-road-mountain-slope-new-zealand.jpg');
+    background-image: url('img/stunning-sunset-view-snow-capped-lake-wakatipu-mount-road-mountain-slope-new-zealand.webp');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -147,7 +147,7 @@ header.nav-bar .navbar-nav .nav-link.active {
     text-align: center;
     border: none;
     border-radius: 50px;
-    background-image: url('/img/search-icon-png-9965.png');
+    background-image: url('img/search-icon-png-9965.png');
     background-repeat: no-repeat;
     background-position: 15px center; 
     background-size: 30px; 
