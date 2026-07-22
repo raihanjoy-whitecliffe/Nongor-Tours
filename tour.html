@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Heading-->
+<head>
+    <title>NONGOR | Tours</title>
+    <link rel="icon" type="image/jpeg" href="img/nongor_logo-removebg-preview - Edited.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="mt-0">
+    <header class="nav-bar">
+        <!-- added navbar from bootstrap -->
+        <nav class="navbar navbar-expand-lg shadow mb-4">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/home.html">
+                    <img src="/img/nongor_logo-removebg-preview.png" alt="Logo" width="100" height="100" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <!-- adding some links to other webpage sections -->
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="/home.html">Home</a>
+                        <a class="nav-link active" aria-current="page" href="/tour.html">Tours</a>
+                        <a class="nav-link" href="/about.html">About Us</a>
+                        <a class="nav-link" href="/contact.html">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container text-center">
+        <p class="motto">Where Journeys Find a Home..</p>
+    </div>
+    <!-----Search Bar--->
+    <div class="container text-center">
+        <search class="search-bar">
+            <input type="text" class="form-control" placeholder="Find Your Destination..">
+        </search>
+    </div>
+    <!----Container for the tour packs to be in columns to organize them--->
+    <div class="container-fluid my-4">
+        <div class="row g-4"> 
+            <!---Carousel 1-->
+            <div class="col-md-6">
+                <div id="tour-car-1" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3500">
+                    <!---Previous and next button-->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#tour-car-1" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#tour-car-1" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#tour-car-1" data-bs-slide-to="2"></button>
+                    </div>
+            
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/carousel-main.webp" alt="Hobbiton 1" class="d-block w-100">
+                            <div class="carousel-caption">
+                                <h3>Hobbiton</h3>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/carousel-2.webp" alt="Hobbiton 2" class="d-block w-100">
+                            <div class="carousel-caption">
+                                <h3>Hobbiton</h3>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/carousal-1.webp" alt="Hobbiton 3" class="d-block w-100">
+                            <div class="carousel-caption">
+                                <h3>Hobbiton</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!---Previous and next button Functions-->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#tour-car-1" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#tour-car-1" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+                <div class="card carousal-info">
+                    <div class="card h-100">
+                        <div class="card-body d-flex flex-column">
+                            <div class="pricing">
+                                <span>Single: $3000</span>
+                                <span>Group: $2500 Each</span>
+                            </div>
+                            <p class="card-text">On this guided tour through the famous 12-acre movie set, you finally can enter a real Hobbit Hole. You’ll see the iconic Bag End and the Brand-new decorated interiors on Bagshot Row. We plan our tours in a way so that we can avoid big crowds, so it’s nice and quiet for photo sessions. If you’re coming with a group of 2-4 friends, we make booking easy so you can all sit together for a cold drink at the Green Dragon Inn and enjoy every moments with your friends, we have personal guest gatherings for Classic music and Barbecue. Plus, our bus and the destination have fast Starlink Wi-Fi and USB-C chargers, so you can stay powered up the whole way. There is a supermarket just 5minutes away from the spot, where you can anything you would like to find but cheaper.<br><strong>Difficulty: Moderate(Easy For the Young Generation)</strong></p>
+                            <!--Facilities-->
+                            <div class="card-facility">
+                                <p class=""><strong>Tour Facilities and Amenities</strong></p>
+                                <span>High-Speed Starlink Wi-Fi</span><br>
+                                <span>USB-C Charging Ports</span><br>
+                                <span>Group Transport and Changing Rooms Included</span><br>
+                                <span>Reserved Group Dining</span><br>
+                                <span>Free Barbecue</span><br>
+                                <span>Complimentary Food (Sandwich, Coke)</span><br>
+                                <span>Free Professional Local Guides</span>
+                            </div>
+                            <a class="mt-auto text-center" href="/hobbiton.html">
+                                <button class="btn add-to-cart-btn" id="cartadd-1" data-name="tour-1" data-price="">View Package!</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---Carousel 2-->
+            <div class="col-md-6">
+                <div id="tour-car-2" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3500">
+                    <!---Previous and next button-->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#tour-car-2" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#tour-car-2" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#tour-car-2" data-bs-slide-to="2"></button>
+                    </div>
+            
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/carousel-mt-cook-main.webp" alt="Mt Cook 1" class="d-block w-100"> 
+                            <div class="carousel-caption">
+                                <h3>Mt. Cook Trekking</h3>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/carousel-mt-cook.webp" alt="Mt Cook 2" class="d-block w-100">
+                            <div class="carousel-caption">
+                                <h3>Mt. Cook Trekking</h3>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/mt-cook-3.webp" alt="Mt Cook 3" class="d-block w-100">
+                            <div class="carousel-caption">
+                                <h3>Mt. Cook Trekking</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!---Previous and next button Functions-->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#tour-car-2" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#tour-car-2" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+                    <div class="card carousal-info">
+                        <div class="card h-100">
+                            <div class="card-body d-flex flex-column">
+                                <div class="mt-auto">
+                                    <div class="pricing">
+                                        <span>Single: $6000</span>
+                                        <span>Group: $5700 Each</span>
+                                    </div>
+                                </div>
+                                <p class="card-text">Come and see New Zealand’s tallest mountain up close. We’ll take you on the famous Hooker Valley track, crossing three fun suspension bridges to reach a lake filled with real floating icebergs. If you hate crowds, don't worry, we’ll show you unknown paths that most tourists miss and more secret spots unknown to many others. For those staying in a holiday home with a big group, we’ll pick you up in a spacious van so you can travel together. We even have Starlink internet at our mountain base, making it easy for students, content creators, and backpackers to check in while enjoying the wild alpine views. There are few shops near our base where you can Come and see New Zealand’s tallest mountain up close. We’ll take you on the famous Hooker Valley track, crossing three fun suspension bridges to reach a lake filled with real floating icebergs. If you hate crowds, don't worry, we’ll show you unknown paths that most tourists miss and more secret spots unknown to many others. For those staying in a holiday home with a big group, we’ll pick you up in a spacious van so you can travel together. We even have Starlink internet at our mountain base, making it easy for students, content creators, and backpackers to check in while enjoying the wild alpine views. There are few shops near our base where you can find trekking equipment at retail price and some shops has groceries. Trekking Difficulty: Moderate(Easy For the Young Generation)find trekking equipment at retail price and some shops has groceries. <br><strong> Difficulty: Moderate(Easy For the Young Generation)</strong></p>
+                                <!--Facilities-->
+                                <div class="card-facility">
+                                    <p class="card-facility"><strong>Tour Facilities and Amenities</strong></p>
+                                    <span>High-Speed Starlink Wi-Fi in the Bus and in the Base</span><br>
+                                    <span>USB-C Charging Ports at Base</span><br>
+                                    <span>4x4 Group Transport and Common Room Included</span><br>
+                                    <span>Reserved Group Dining at Base</span><br>
+                                    <span>Free Barbecue at Base</span><br>
+                                    <span>Complimentary Food (Sandwich, Coke) while Trekking</span><br>
+                                    <span>Free Professional Local Guides with Tents</span>
+                                </div>
+                            </div>
+                                <a class="mt-auto text-center" href="/mt-cook.html">
+                                    <button class="btn add-to-cart-btn" id="cartadd-1" data-name="tour-1" data-price="">View Package!</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+            </div> 
+        </div> 
+    </div>
+    <!--Connecting My js file-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <footer class="footer">
+        <div class="container text-center">
+            <div class="footer-socials mb-3">
+                <a href="https://facebook.com/" class="footer-link"><img class="sm" src="/img/facebook-new-2019-seeklogo.png" alt="facebook"> Facebook</a>
+                <a href="https://instagram.com/" class="footer-link"><img class="sm" src="/img/instagram-new-2016-seeklogo.png" alt="instagram"> Instagram</a>
+                <a href="https://www.youtube.com/" class="footer-link"><img class="sm" src="/img/youtube-icon-seeklogo.png" alt="youtube"> Youtube</a>
+            </div>
+            <p class="copyright-text mb-0">&copy; 2026 NONGOR. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
