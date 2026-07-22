@@ -1,0 +1,402 @@
+/*----------Navigation Bar and Contents----------------*/
+
+header.nav-bar nav.navbar {
+    background: transparent; 
+}
+
+.navbar-brand img {
+    height: 150px;        
+    width: fit-content;         
+    object-fit: contain;
+    display: block;
+
+}
+
+header.nav-bar .navbar-nav {
+    gap: 40px;
+    text-align: center;
+    align-items: center;
+}
+
+header.nav-bar .navbar-nav .nav-link {
+    color: #ffffff;
+    font-weight: 600;
+    padding: 8px 16px; 
+    border-radius: 50px;
+    background-color: purple;
+    transition: all 0.3s ease;
+}
+/* Hover Effect on Navbar element*/
+header.nav-bar .navbar-nav .nav-link:hover {
+    background-color: rgb(196, 6, 177);
+    color: #ffffff;
+}
+
+header.nav-bar .navbar-nav .nav-link.active {
+    background-color: rgb(73, 3, 73);
+    color: #ffffff;
+}
+/*-----------Background image of Home, Tour(also single tour pages) and Contact Us Page---------------*/
+.mt-0 {
+    background-image: url('/img/stunning-sunset-view-snow-capped-lake-wakatipu-mount-road-mountain-slope-new-zealand.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-x: hidden; 
+}
+
+/*----------Tour Option Cards----------------*/
+
+.pricing {
+    background-color: purple;
+    text-align: center;
+    border-radius: 10px;
+    color: #ffffff;
+    width: 60%;
+    font-size: 20px;
+    font-family: 'Irish Grover', cursive;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 5px 15px;
+}
+.card{
+    background-color: rgba(128, 0, 128, 0.499);
+}
+.card-title{
+    color: #ffffff;
+    text-align: center;
+    font-family: sans-serif;
+}
+.card-text{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    background-color: purple;
+    border-radius: 10px;
+    text-align: center;
+    width: fit-content;
+    color: #ffffff;
+}
+.card-facility{
+    background-color: purple;
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+    text-align: center;
+    font-family: cursive;
+    margin-bottom: 10px;
+}
+.card-facility-text{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: purple;
+    border-radius: 10px;
+    text-align: center;
+    width: fit-content;
+    color: #ffffff;
+}
+/* About Us Description Card*/
+.about-us-description {
+    background-color: rgba(128, 0, 128, 0.756);
+    border-radius: 24px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    border: none;
+}
+
+.about-us-description .about-title {
+    font-family: cursive;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 32px;
+    text-align: center;
+}
+
+.about-us-description .about-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 20px;
+    line-height: 1.8;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/*------------Motto and Searchbar--------------*/
+
+.motto {
+    font-family: 'Irish Grover', cursive;
+    font-size: 50px;
+    text-shadow: 2px 4px 10px rgba(181, 180, 180, 0.9);
+    font-weight: bold;
+    color: rgb(230, 0, 255);
+    text-align: center;
+}
+
+.search-bar .form-control {
+    max-width: 45%;
+    margin: auto;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    background-image: url('/img/search-icon-png-9965.png');
+    background-repeat: no-repeat;
+    background-position: 15px center; 
+    background-size: 30px; 
+    padding-left: 45px;
+    margin-bottom: 10px;
+}
+
+/*------------Buttons--------------*/
+
+.btn {
+    color: rgb(255, 255, 255);
+    background-color: rgb(195, 39, 243); 
+    font-family: cursive;
+    padding: 10px 25px;
+    border-radius: 50px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* hover effect for booking buttons */
+.btn:hover {
+    background-color: transparent;
+    color: rgb(254, 254, 254);
+    border: 2px solid rgb(255, 255, 255); 
+    transform: translateY(10px);
+}
+.txt{
+    color: rgb(230, 0, 255);
+    text-shadow: 2px 4px 10px rgba(181, 180, 180, 0.9);
+    font-size: 50px;
+    font-family: cursive;
+}
+
+/*--------------------------*/
+
+/* Review Section on Homepage */
+.review-main-title {
+    color: #ffffff;
+    font-family: 'Irish Grover', cursive;
+    font-size: 45px;
+}
+
+/* Purple card box to seperate each reviews*/
+.custom-review-card {
+    background-color: purple;
+    border-radius: 15px;
+}
+
+/* avatar for reviewers */
+.review-avatar {
+    width: 75px;
+    height: 75px;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: #000000;
+    /* text inside the avatar*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto; 
+}
+
+.reviewer-name {
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+
+.review-body-text {
+    color: #ffffff;
+    font-family: cursive;
+    font-size: 20px;
+    margin: 0;
+    height: auto;
+}
+
+
+/*-----------Carousel---------------*/
+
+.carousel-inner {
+    border-radius: 8px;
+    overflow: hidden; 
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 600px; 
+    object-fit: cover;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 15%;
+    height: 100%;
+    margin-top: 0;
+}
+/*Contact Us Page*/
+.contact-card {
+    background-color: purple;
+    border-radius: 24px;
+    border: none;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.contact-card-title {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+/* Form Inputs Styling */
+.contact-card .contact-input {
+    background-color: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    color: #ffffff;
+    border-radius: 12px;
+    padding: 10px 15px;
+}
+
+/* Contact us page Button */
+.contact-card .contact-btn {
+    background-color: rgb(86, 4, 86);
+    color: #ffffff;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 12px;
+    padding: 12px;
+    border: none;
+    transition: background-color 0.2s ease;
+}
+
+.contact-card .contact-btn:hover {
+    background-color: rgb(244, 126, 244);
+}
+/* Checkout Section Styling */
+.checkout-box {
+    color: white;
+    background-color: rgba(128, 0, 128, 0.499); /* Matches your purple theme */
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.checkout-text {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.payment-fields label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.payment-fields input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: none;
+    box-sizing: border-box; /* Keeps padding inside the width */
+}
+label{
+    color: white;
+    font-weight: bold;
+}
+.contact-card .contact-input::placeholder {
+    color: rgba(255, 255, 255, 0.4);
+}
+/* Text Alignment and adjusting them */
+.address-info-box {
+    text-align: left;
+}
+
+.contact-detail-text {
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 16px;
+    padding-left: 28px;
+}
+
+/* map modification */
+.map-container {
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.map-container iframe {
+    display: block;
+    width: 100%;
+    height: 250px;
+    border: none;
+}
+/*--------------------------*/
+.sm{
+    width: 20px;
+    height: 10px;
+}
+footer {
+    background-color: rgba(20, 3, 25, 0.9); 
+    padding: 40px 0;
+    margin-top: 60px; 
+    color: #ffffff;
+    border-top: 2px solid rgba(195, 39, 243, 0.3);
+}
+
+/* Putting The social media badge and text serially(Horizontally) */
+.footer-link {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/*-----------Footer---------------*/
+
+/* Hover effect on footer to look more professional */
+.footer-link:hover {
+    color: rgb(195, 39, 243); 
+    transform: translateY(-2px); 
+}
+
+.sm {
+    width: 22px;
+    height: 22px;        
+    object-fit: contain;
+}
+/* For Copyright Text*/
+.copyright-text {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: sans-serif;
+    margin-top: 15px;
+}
